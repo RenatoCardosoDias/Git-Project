@@ -16,7 +16,7 @@ struct ContentView: View {
                 NavigationLink(destination: ModalView()){
                     Text("Go Next")
                 } //end NavigationLink
-                .foregroundColor(.yellow)
+                .foregroundColor(.blue)
             .navigationTitle("XCode and Git")
             }
         } //end NavigationView
